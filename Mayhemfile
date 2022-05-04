@@ -1,0 +1,7 @@
+image: pedbap/fpng-fuzzer:3
+duration: 90
+project: fpng-fuzz
+target: fpng-fuzzer
+cmds:
+  - cmd: /fpng_fuzz @@
+    afl: true
